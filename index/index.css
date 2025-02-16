@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    border: 0;
+    outline: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    text-decoration: none;
+    background-color: rgb(35, 2, 124);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+.cabecalho {
+
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.h3 {
+     
+    font-size: 24px;
+    display: flex;
+    padding-right: 30%;
+    
+}
+
+.nav {
+    
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    
+}
+
+#select {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 90%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.singup {
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    height: 30px;
+    border-radius: 20px;
+    width: 70px;
+    font-family: 'Ubuntu',sans-serif;
+
+}
+.singup:hover {
+    background-color: rgb(0, 194, 194);
+    transition: 0.2s ease;
+}
+
+.login {
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    color: aqua;
+    height: 30px;
+    width: 70px;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.login:hover {
+    border: 2px  solid rgb(0, 175, 175);
+    transition: 0.2s ease;
+}
+
+.div-h1 {
+    color: white;
+    font-size: 230%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: 'Kanit',sans-serif;
+
+}
+
+.main {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.thea {
+    display: flex;
+    border-radius: 10px;
+    padding-top: 10px;
+    line-height: 30px;
+    
+    
+}
+
+.section-thea h3 {
+    padding-bottom: 30px;
+    font-size: 3em;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-self: flex-start;
+    color: #00028d;
+    line-height: 46px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    
+    
+}
+
+.section-thea p {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 30px;
+    line-height: 38px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.main .logo-brawlhalla {
+    height: 30em;
+    padding-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-thea {
+    height: 26em;
+}
+
+.div-img {
+    
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    gap: 10px;
+
+}
+
+.div-img img {
+    border-radius: 20px;
+    width: 40em;
+    height: 14em;
+    
+}
+
+.div-final {
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    line-height: 35px;
+    
+}
+
+.div-final p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.div-final img {
+    height: 15em;
+    border-radius: 20px;
+    
+}
+
+.div-final h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    color: #00028d;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    height: 10em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Kanit',sans-serif;
+}
+
+.ancora {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+    
+
+}
+
+.ancora a {
+    font-size: 25px;
+}
